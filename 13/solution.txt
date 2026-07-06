@@ -1,4 +1,4 @@
-for both of the values.txt ctf and the secret.txt ctf i created a python script that decrypt the cipher
+for both of the values.txt ctf and the secret.txt ctf the incrementation is by 13 index i created a python script that decrypt the cipher
 we just enter the flag and get the result
 
 for the values.txt the flag is :picoCTF{next_time_Ill_try_2_rounds_of_rot13_45559abd}
