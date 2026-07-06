@@ -1,3 +1,5 @@
-I created a python script that decrypt a file using ceaser cipher  ROT13 that will move the characters by 13 index
+for both of the values.txt ctf and the secret.txt ctf i created a python script that decrypt the cipher
+we just enter the flag and get the result
 
-first enter the flag and the decryption will happen instantly 
+for the values.txt the flag is :picoCTF{next_time_Ill_try_2_rounds_of_rot13_45559abd}
+for the secret.txt the flag is :picoCTF{not_too_bad_of_a_problem}
