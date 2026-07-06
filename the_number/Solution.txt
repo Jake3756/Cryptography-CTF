@@ -1,2 +1,13 @@
 in this CTF we just replace each number with its index in the english alphabet
 
+for example :
+16 --> p
+9  -->i
+3  -->c
+15 -->0
+3  -->c
+20 -->t
+6  -->f
+
+and do the same for each character
+in the end the flag is : picoctf{thenumbersmason}
