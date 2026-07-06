@@ -1,5 +1,15 @@
 first:
-we indentify the type of the hash then we use john to find the correct password 
+-we enter the machine and we get a hash value we identefy the type of the hash and it is MD5 hashing algorithm
+hash :'482c811da5d5b4bc6d497ffa98491e38'
+we use john the ripper to get the password :'password123'
+command: john --wordlist=/usr/share/wordlists/rockyou.txt --format=Raw-MD5  hash.txt
 
-second:
-repeat 
+-then we get another hash :'b7a875fc1ea228b9061041b7cec4bd3c52ab3ce3' which is SHA1 hashing algorithm
+we get the password :'letmein'
+command: john --wordlist=/usr/share/wordlists/rockyou.txt --format=Raw-SHA1  hash.txt
+
+-then we get another hash :'916e8c4f79b25028c9e467f1eb8eee6d6bbdff965f9928310ad30a8d88697745' which is SHA256 hashing algorithm
+we get the password :'qwerty098'
+command: john --wordlist=/usr/share/wordlists/rockyou.txt --format=Raw-SHA256  hash.txt
+
+then we get the flag:picoCTF{UseStr0nG_h@shEs_&PaSswDs!_6965e43b}
