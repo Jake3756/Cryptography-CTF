@@ -1,0 +1,9 @@
+first :
+we use exiftool to see the meatdata of the image file 
+we find a strange comment that is writen in hexadecimal
+we decrypt it and find that it is an RSA private encryption key 
+
+second :
+we use that key to decrypt the flag file then extract the flag
+command:
+openssl pkeyutl -decrypt -inkey private.pem  -in flag.enc  -out file.txt

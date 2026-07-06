@@ -1,0 +1,5 @@
+first:
+we indentify the type of the hash then we use john to find the correct password 
+
+second:
+repeat 
